@@ -161,7 +161,7 @@ int MancalaTree::minimax(Node *node, int depth, bool max, int alpha, int beta){
 
 }
 
-//Calls minimax and returns a childs index
+//Calls minimax and returns a child's index
 int MancalaTree::chooseMoveAI(Node* node, bool max){
 
     int index = 0;
@@ -198,7 +198,6 @@ int MancalaTree::chooseMoveAI(Node* node, bool max){
 }
 
 void MancalaTree::calcHeuristic(Node* node){
-//int heu = node->state[8] - node->state[0];
     /* Part 1 of Heuristic:
      * Takes the sum of the opponents board and subtracts the sum of the players board  => heuristic*/
     int opponent = node->state[8]+node->state[9]+node->state[10]+node->state[11]+node->state[12]+node->state[13];

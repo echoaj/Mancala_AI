@@ -1,3 +1,20 @@
+/*********  Mancala AI  ********** California Sate University San Marcos  **********
+ *
+ * AUTHORS:
+ * Alexander Joslin,
+ * Colby Schexnayder,
+ * Sean Seaver
+ *
+ * DESCRIPTION:
+ * This is a mancala game where the players compete against the computer AI.
+ * The AI uses the Minimax search algorithm with alpha-beta pruning to
+ * predict the best possible move 6 moves ahead.  It uses 3 heuristics to
+ * to determine a move's value.
+ *
+ * DATE:
+ * March 1, 2019
+ */
+
 #include "Tree.h"
 #include "Tree.cpp"
 #include <string>

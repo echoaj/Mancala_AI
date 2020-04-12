@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-//Colby Schexnayder
+
 struct Node
 {
     int state [14] = { 0, 4, 4, 4, 4, 4, 4, 0,
@@ -15,7 +15,7 @@ struct Node
     bool childrenGenerated = false;
     vector<Node*> children;
 };
-//Colby Schexnayder
+
 class MancalaTree
 {
 public:
